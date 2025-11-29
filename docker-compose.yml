@@ -6,7 +6,7 @@ services:
   comfyk:
     build:
       dockerfile: Dockerfile
-    image: localhost:32000/daimler/comfyui:test
+    image: localhost:32000/daimler/comfyui:0.3.75
     container_name: comfyui
     ports:
       - "8188:8188"
